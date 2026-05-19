@@ -1,0 +1,28 @@
+.header-title{
+    min-width: fit-content;
+}
+.new-custom-card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px 0px 10px 0px;
+}
+
+.new-custom-card-header .title {
+font-size: 20px;
+color: #26252F;
+margin-bottom: 0;
+}
+
+
+@media (max-width: 576px) {
+    .header-buttons{
+    width: max-content;
+}
+.custom-card-header{
+    flex-direction: row;
+}
+}

@@ -1,0 +1,85 @@
+.left-container{
+  background: linear-gradient(to top, #FFFFFF, #FFE0CD);
+  /* padding: 20px 90px; */
+  padding:10px 0px 40px 40px;
+
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+      /* height: 90vh; */
+    justify-content: center;
+    align-items: start;
+    padding: 100px 0px;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+.card-body{
+padding: 10px;
+}
+.form-container{
+    width: 100%;
+}
+.text-1{
+  color: #EA5817;
+  text-decoration: underline;
+  margin-bottom: 0px;
+}
+.text-2{
+  color: #263C7E;
+  margin-bottom: 10px;
+}
+.text-3{
+  color: #202143;
+  font-size: 15px;
+}
+.logo{
+  height: 28px;
+}
+.hide-scroll{
+  overflow: hidden !important;
+  /* height: 100vh !important; */
+}
+
+.otpWrapper {
+  display: flex;
+  gap: 8px;
+}
+
+/* Otp.module.css */
+.otpInput {
+  width: 30px !important;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  text-align: center;
+}
+
+
+
+@media (max-width: 767px) {
+ .card-container{
+    justify-content: start;
+    /* height: 50vh; */
+}
+.info-container{
+   /* height: 40vh; */
+    padding: 10px 0px;
+}
+.left-container{
+  display: none;
+  padding: 20px 30px;
+
+}
+.hide-scroll{
+  overflow: scroll !important;
+  height: auto !important;
+}
+
+}

@@ -1,0 +1,88 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 20, 20, 0.3); /* lighter backdrop */
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-settings-modal {
+  width: 400px;
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.chart-settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-settings-header h3 {
+  margin: 0;
+}
+
+.close-btn {
+  font-size: 22px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.tabs {
+  margin: 16px 0;
+  display: flex;
+  gap: 8px;
+}
+
+.tabs button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: #eee;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.tabs button.active {
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.tab-content {
+  margin-top: 10px;
+}
+
+.settings-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.settings-table td,
+.settings-table th {
+  padding: 6px;
+}
+
+.chart-settings-footer {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,138 @@
+.summary-card{
+    padding: 15px;
+    background-color: #F9FAFB;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #E5E7EB;
+}
+.summary-fr{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bidder-summary-card{
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.bidder-summary-fr {
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.bidder-summary-fr-title {
+    color: #717182;
+    margin-bottom: 5px;
+    max-width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bidder-summary-mr{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 14px 0px 14px;
+}
+.bidder-summary-sr{
+    padding: 14px 14px 0px 14px;
+}
+.custom-divider {
+    width: 90%;
+    height: 2px;
+    background-color: #dddddd;
+    margin: 0px 14px;
+}
+.bid-summary-custom-divider{
+    width: 100%;
+    height: 2px;
+    background-color: #dddddd;
+    margin:12px 0px 5px 0px;
+}
+
+
+.summary-fr-title{
+    color: #717182;
+    margin-bottom: 5px;
+}
+.summary-fr-amount{
+    color: #EE5819;
+    font-size: 16px;
+    font-weight: 600;
+}
+.summary-fr-bidderId{
+    color: #155DFC;
+}
+.summary-fr-amount-badge{
+    background-color: #F0FDF4;
+    color: #008236;
+    border: 1px solid #00A63E;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 14px;
+    margin-right: 6px;
+    font-weight: 500;
+}
+.summary-fr-amount-badge-highest{
+    background-color: #00A63E;
+    color: white;
+    border-radius: 12px;
+    padding: 0px 12px 2px 12px;
+    font-size: 14px;
+    margin-right: 6px;
+    font-weight: 100;
+}
+.summary-fr-bid-closing-amount{
+    color: #00A63E;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bidder-card-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.outline-btn {
+    width: 90%;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 1px solid #ff6a00; /* outline color */
+    background: transparent;
+    color: #ff6a00;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin: 20px 14px;
+}
+
+.outline-btn a {
+    color: #ff6a00;
+    text-decoration: none;
+}
+
+/* .outline-btn:hover {
+    background: #ff6a00;
+    color: #fff;
+} */
+ .accordion-mobile-view{
+    display: none;
+   }
+   .web-view{
+    display: block;
+   }
+
+@media (max-width: 768px) {
+   .accordion-mobile-view{
+    display: block;
+    padding: 0px 24px;
+   }
+   .web-view{
+    display: none;
+   }
+}

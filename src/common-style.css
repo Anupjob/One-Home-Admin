@@ -1,0 +1,317 @@
+/* buttons -----------------------------------*/
+.btn-danger {
+    margin-top: 0px;
+}
+.serviceId {
+    color: blue;
+}
+.service-id {
+    background: black;
+    color: white;
+}
+/* start style for SideBar Page */
+.left-side-menu {
+    margin-left: -30px;
+    margin-top: 0px!important;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+#main-sidebar {
+    font-size: 14px;
+    font-family: 'Tinos', serif;
+}
+.menu-arrow {
+    margin-top: 2px;
+}
+/* end sidebar page*/
+/*....................................................................................................................*/
+
+/* start style for Login Page */
+
+.forgotForm {
+    text-align: center;
+    margin-top: 100px;
+}
+.email {
+    width: 230px;
+    height: 35px;
+    outline: none;
+    margin-top:30px;
+}
+.appName {
+    color: white;
+    padding: 0px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#admin {
+    font-size: 14px;
+    color: white;
+
+}
+
+/* End style of Login Page */
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/* Start style for Dashboard Page */
+
+ #modules {
+     color: #66ccff;
+ }
+
+/* End style of Dashboard Page */
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/* start style for CelebrityResponseTime Page */
+
+#CRT-form {
+    margin-top: 50px;
+}
+.month {
+    float: left;
+}
+.day {
+    float: left;
+}
+
+/* end style of CelebrityResponseTime Page */
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+.prePrivacy {
+    margin-left: 5px;
+    color: #48C9B0;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* start style for SubAdmin Page */
+
+.subadmin-type {
+          float: left;
+}
+.sub-main-heading,.sub1-main-heading {
+    float: left;
+}
+.sub1-main-heading {
+    margin-top: -30px;
+}
+
+/* end style of SubAdmin Page */ 
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+/*start style for SearchBar Page */
+.subadmin-type {
+    float: left;
+}
+.search-main-heading {
+margin-top: -40px;
+
+}
+#breadcrumb {
+    margin-top: -50px;
+}
+.search-form {
+    margin-top: 30px;
+}
+.preCategory {
+    margin-left: 5px;
+    color: #48C9B0;
+    font-weight: 600;
+}
+
+/*end style of SearchBar Page */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*start style for CategoryManagement Page */
+
+.categoryManagement-heading {
+    margin-top: -40px;
+    float: left;
+}
+#add-category {
+    margin-top: -40px;
+    float: right;
+}
+.wrapper {
+    margin-top: 20px;
+}
+
+/* end style of CategoryManagement Page */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/* start style for AddCategory Page*/
+/* ens style of AddCategory Page*/
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/* start style for ServiceDetailManagement Page*/
+
+#service-details-warning {
+    float: right;
+    background-color: yellow;
+    color: brown;
+    font-weight: bolder;
+    outline: none;
+    border-style: none;
+    border-inline-start-color: brown;
+    height: 30px;
+    padding: 5px;
+    width:100px;
+    text-align: center;
+}
+.fa-ban,.fa-check-square-o {
+    float:right;
+    font-size: 20px;
+    color: #ff3300;
+    cursor: pointer;
+}
+.fa-check-square-o {
+    color: green;
+}
+.service-details-form {
+    margin-top: 50px;
+}
+/* ens style of ServiceDetailManagement Page*/
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*start style for User Profile Details Page */
+
+#user-profile-img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: -50px;
+}
+#btn-cancel {
+    margin-left: 5px;
+}
+/* end style of User Profile Details Page */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*start style for User Refund Amount Page */
+
+.btn-update {
+    float: right;
+    background-color:blue;
+    color:white;
+    border-width: 2px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+#slider-img {
+    width:200px;
+    height:200px;
+}
+/* end style of User Refund Amount Page */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*start style for Block Management Page */
+
+#block-ban,#block-success {
+    background:none;
+    border: none;
+}
+#block-success {
+    color: green;
+}
+/* end style of Block Management Page */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*start style for Celebrity Profile Details Page */
+
+.col-lg-3 {
+    float: left;
+    margin-top: 30px;
+}
+.sub-category {
+    float: left;
+}
+/* end style of Celebrity Profile Details Page */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*start style for Feature Management Page */
+
+.customCheck {
+    color: red;
+}
+/* end style of Feature Management Page */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+/*start style for Personal Details Page */
+
+#personalDetails-btn ,#accountDetails-btn ,#partnership-btn, #min-max-btn{
+    background-color: grey;
+    color: honeydew;
+}
+
+
+/* end style of Personal Details Page */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+/*start style for Feed Details Page */
+
+.container {
+    position: relative;
+    height: 3vmin;
+  }
+ 
+/* end style of Charity Details Page */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+/* start style for Footer Page */
+
+#footer-title {
+    text-align: center;
+    margin-left: 150px;
+}
+/* end style of Footer Page*/
+
+/*start style for sidebar menu */
+.subMenuList{
+    margin-left:20px;
+    color: red;
+}
+.iframe {
+    border: none;
+    margin-left: -20px; 
+}
+.profilePicture {
+    width: 130px;
+    height: 100px;
+}
+/*End sidebar menu styling */
+

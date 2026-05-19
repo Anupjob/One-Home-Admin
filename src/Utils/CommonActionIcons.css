@@ -1,0 +1,28 @@
+.action-menu {
+  background-color: #fff !important;
+  opacity: 1;
+}
+
+/* .table-wrapper {
+  overflow: visible !important;
+} */
+
+.menu-divider {
+  height: 1px;
+  background-color: #ec0b0b;
+  margin: 4px 0;
+}
+
+.action-icon-btn {
+    width: 25px;
+    height: 34px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #DCDCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}

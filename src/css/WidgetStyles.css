@@ -1,0 +1,36 @@
+.widget {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.widget-header {
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.widget-header i {
+  color: #6c757d;
+}
+.widget {
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.widget:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+

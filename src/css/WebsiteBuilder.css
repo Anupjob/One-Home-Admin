@@ -1,0 +1,183 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.grid-area {
+  position: relative;
+  width: 85%;
+  height: fit-content;
+  background-color: #f8f9fa;
+  background-image: 
+    linear-gradient(to right, #e0e0e0 1px, transparent 1px),
+    linear-gradient(to bottom, #e0e0e0 1px, transparent 1px);
+  background-size: calc(100% / 12) 30px; /* 12 columns, 30px rowHeight */
+  background-repeat: repeat;
+}
+
+.no-grid {
+  background-image: none !important;
+}
+
+.widget-sidebar {
+  position: fixed;
+  right: 0;
+  width: 15%;
+  height: 100vh;
+  padding: 20px;
+  background: #fff;
+  border-left: 1px solid #ccc;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+/* Widget Styling */
+.widget-container {
+  position: relative;
+}
+
+.widget,
+.widget-wrapper {
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.widget-wrapper:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Drop Area Feedback */
+.valid-drop {
+  outline: 2px dashed green;
+}
+.invalid-drop {
+  outline: 2px dashed red;
+}
+
+/* Toolbar and Hover Controls */
+.widget-toolbar {
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 10;
+  opacity: 0;
+}
+
+.widget-wrapper:hover .widget-toolbar {
+  opacity: 1;
+}
+
+.widget-settings {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+.widget:hover .widget-settings {
+  opacity: 1;
+}
+
+/* Fancy Toggle */
+.mode-toggle-fancy {
+  position: fixed;
+  top: 6rem;
+  right: 20px;
+  z-index: 1500;
+}
+.mode-toggle-fancy input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+.mode-toggle-fancy label {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: #EF5713;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.toggle-icon {
+  font-size: 24px;
+  color: #fff;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+}
+.mode-toggle-fancy input:checked + label .toggle-icon {
+  transform: rotate(360deg);
+}
+
+/* Modal Layer Fix */
+.modal-backdrop {
+  z-index: 1040 !important;
+}
+.modal {
+  z-index: 1050 !important;
+}
+
+/* Action Buttons */
+.setting-widget-btn,
+.delete-widget-btn {
+  position: absolute;
+  right: 10px;
+  z-index: 10;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.download-dashboard{
+  top:11rem;
+}
+.setting-widget-btn {
+  top: 20px;
+}
+
+.delete-widget-btn {
+  top: 60px;
+  color: #dc3545;
+}
+.download-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.download-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}

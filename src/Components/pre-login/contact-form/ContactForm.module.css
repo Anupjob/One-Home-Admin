@@ -1,0 +1,38 @@
+.formBox {
+  background: #fff;
+  /* border: 1px solid #eee; */
+}
+
+.formBox h4 {
+  font-weight: 600;
+  color: #333;
+}
+
+.formBox input,
+.formBox textarea {
+  border-radius: 8px;
+}
+
+.leftLabel {
+  text-align: left;
+  display: block;   
+  font-weight: 500;
+  color: #333;
+}
+
+
+
+.formBox button {
+  border-radius: 8px;
+  font-weight: 500;
+  background-color: #EE5819;
+  color: #fff;
+}
+.wMd75 {
+  width: 100% !important; /* Mobile (default) */
+}
+@media (min-width: 767px) {
+  .wMd75 {
+    width: 75% !important; /* Tablet and above */
+  }
+}

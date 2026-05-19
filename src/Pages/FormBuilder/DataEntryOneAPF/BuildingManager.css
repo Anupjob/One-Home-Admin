@@ -1,0 +1,38 @@
+/* tab container */
+.tab-btn-group {
+  display: inline-flex;
+  border: 1px solid #EE5819;
+  border-radius: 6px;
+  overflow: hidden;
+  /* height: 5vh; */
+}
+.oneAPF-custom-btn-danger {
+  background-color: #EE5819 !important;
+  color: #fff !important;
+}
+/* base button */
+.oneAPF-custom-btn-outline {
+  padding: 8px 14px;
+  border: none;
+  background: #fff;
+  font-weight: 600;
+  color: #EE5819;
+  transition: all 0.2s ease;
+  border-right: 1px solid #EE5819;
+}
+
+/* remove last border */
+.oneAPF-custom-btn-outline:last-child {
+  border-right: none;
+}
+
+/* active tab */
+.oneAPF-custom-btn-outline.text-white {
+  background-color: #EE5819 !important;
+  color: #fff !important;
+}
+
+/* hover */
+.oneAPF-custom-btn-outline:hover {
+  background: #ffe6db;
+}

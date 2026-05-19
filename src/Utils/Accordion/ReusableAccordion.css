@@ -1,0 +1,36 @@
+.custom-accordion {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.custom-accordion .accordion-header {
+  background-color: #f8f9fa;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-accordion .accordion-button {
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0;
+  color: #333;
+  text-align: left;
+  width: auto;
+}
+
+.custom-accordion .accordion-button:focus {
+  box-shadow: none;
+}
+
+.custom-accordion .accordion-actions button {
+  margin-left: 0.5rem;
+}
+
+.custom-accordion .accordion-body {
+  padding: 1rem;
+  background-color: #fff;
+}

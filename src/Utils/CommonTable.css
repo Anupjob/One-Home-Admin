@@ -1,0 +1,189 @@
+.common-table tbody td,
+.common-table tbody th {
+  /* padding: 6px !important; */
+  vertical-align: middle !important;
+  /* border-bottom: 1px solid #e3e6f0; */
+  font-size: 12px;
+}
+
+.table-container-wrapper {
+  width: 100%;
+}
+
+.table-wrapper {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.custom-table-header {
+  background-color: #F3F3FA !important;
+}
+
+.common-table th,
+.common-table td {
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.table-bordered thead th {
+    /* border-bottom-width: 2px; */
+    padding-left: 0px;
+    font-size: 14px;
+    color: #26252F;
+    font-weight: 500;
+}
+
+.common-table thead th {
+  border: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.common-table thead th:first-child {
+  border-radius: 8px 0px 0 8px !important;
+}
+.common-table thead th:last-child {
+  border-radius: 0px 8px 8px 0px !important;
+}
+
+.common-table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+
+.common-table thead {
+  /* position: sticky; */
+  /* top: 0; */
+  /* z-index: 10; */
+}
+
+.common-table thead th {
+  background-color: #F3F3FA;
+  position: sticky;
+  top: 0;
+  /* z-index: 11; */
+}
+
+.sticky-first-column,
+.sticky-right {
+  position: sticky;
+  background-color: #fff;
+  /* z-index: 9; */
+}
+
+.common-table thead th.sticky-first-column,
+.common-table thead th.sticky-right {
+  z-index: 6;
+  
+}
+
+.sticky-first-column {
+  left: 0;
+}
+
+.sticky-right {
+  right: 0;
+}
+.sticky-right.sticky-action-column {
+  width: 100px;
+  background-color: #fff;
+}
+.sticky-right.sticky-status-column{
+  width: 150px;
+}
+
+.common-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+tbody tr:first-child td {
+  border-top: none !important;
+}
+
+/* Remove hover effect from table rows */
+.common-table.table-hover tbody tr:hover {
+  background-color: transparent !important;
+}
+
+/* Optional: remove cursor pointer feel */
+.common-table tbody tr:hover {
+  cursor: default;
+}
+
+.common-table tbody tr:last-child td {
+  border-bottom: 1px solid #dee2e6; /* match Bootstrap table border */
+}
+.card-body{
+    padding: 20px 20px 20px 20px;
+}
+
+.table-wrapper {
+  max-height: 500px;
+  overflow: auto;
+
+  /* Hide scrollbar - Chrome, Safari */
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE & Edge */
+}
+
+.table-wrapper::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
+
+.listing-table thead tr th {
+ padding-left: 10px;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Status color variants */
+.status-pending, 
+.status-data_entry_pending,
+.status-draft {
+  background-color: #cfd1d2;
+  color: #667085;
+}
+
+.status-approved,
+.status-active {
+  background-color: #e6f4ea;
+  color: #16a34a;
+}
+
+.status-published {
+  background-color: #dbeafe;
+  color: #0369a1;
+}
+
+.status-rejected {
+  background-color: #fdecec;
+  color: #dc2626;
+}
+
+.status-send_back {
+  background-color: #f8efc4;
+  color: #fe9a02;
+}
+
+.status-submitted,
+.status-query_open {
+  background-color: #fff8e1;
+  color: #f59e0b;
+}
+
+.action-icon-btn:hover {
+    background-color: transparent !important;
+}
+
+

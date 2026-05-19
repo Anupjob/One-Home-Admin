@@ -1,0 +1,226 @@
+.header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 2000;
+  /* z-index: 100; */
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  height: 57px;
+  border-bottom: 1px solid rgba(212, 212, 212, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+.logo {
+  height: 20px;
+  object-fit: contain;
+}
+.logo-link {
+  text-decoration: none;
+}
+.user-icon{display: flex;}
+.user-icon i, .dropdown_item i{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.bi-person-circle:hover{
+  color: grey;
+}
+.bi-person-circle:hover{
+  color: #EF5713;
+}
+.modal-close-btn{
+    margin: 5px 13px;
+  
+}
+.btn-warning:focus {
+      color: #fff;
+    background-color: #EF5713;
+    border-color: #EF5713;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.75);
+}
+@media (min-width: 767.98px) {
+.user-icon .mobile-menu-icon, .mobile-menu, .mobile-backdrop{
+  display: none;
+}
+}
+@media (max-width: 767.98px) {
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    right: 0;
+    background: white;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    top: 52px;
+    height: calc(100vh - 55px); /* use full viewport height minus header */
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 12px #0000001a;
+    color: rgba(52, 64, 84, 1);
+      padding: 16px;
+  overflow-y: auto;
+  z-index: 1000;
+  }
+
+  .menu-item {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .folder-name {
+    margin-bottom: 5px;
+  }
+
+  .child-links a {
+    display: block;
+    padding-left: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .child-links a:hover {
+    text-decoration: underline;
+  }
+
+  .add-module {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: green;
+  }
+  .mobile-backdrop {
+  position: fixed;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+}
+.modal-close-btn{
+    margin: 5px 13px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 200;
+}
+}
+.header a{
+  color: rgba(52, 64, 84, 1) !important;
+}
+.user-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 15px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 9999;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.user-dropdown a {
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid #eee;
+}
+
+.user-dropdown a:hover {
+  background-color: #f7f7f7;
+}
+
+.user-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  background: rgba(0, 0, 0, 0);
+}
+.dropdown_item img{
+  padding-right: 10px;
+}
+.right-div{
+  display: flex;
+  align-items: center;
+  gap:15px;
+}
+.right-div a{color:#fff !important;}
+
+.fixed-modal .modal-backdrop {
+  background: rgba(0,0,0,0.5); /* still dim if needed */
+  pointer-events: none; /* don't block scroll */
+}
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 0rem !important;
+}
+
+/* Allow body to scroll normally */
+body.modal-open {
+  overflow: auto !important;
+  padding-right: 0 !important;
+}
+
+/* Ensure modal itself is fixed (not moving with scroll) */
+.fixed-modal .modal-dialog {
+  position: fixed;
+  right: 5%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  min-height: calc(80% - 1rem) !important;
+  /* margin: 0; */
+}
+
+.modal-lg {
+  max-width: 950px !important;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.noti-dropdown-item {
+
+    border-bottom: 1px inset #eee !important;
+      font-size: 14px !important;
+      gap: 0px !important;
+      overflow-y: hidden;
+}
+
+.dropdown-item:hover {
+background-color: #fff !important;
+}
+
+.partner-name-span {
+  max-width: 2000px; /* default for desktop */
+}
+
+@media (max-width: 767.98px) {
+  .partner-name-span {
+    max-width: 60px;
+  }
+}

@@ -1,0 +1,39 @@
+.accordion-container {
+  /* border: 1px solid #ddd; */
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  /* border-bottom: 1px solid #eee; */
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.accordion-header:hover {
+  /* background: #eee; */
+}
+
+.accordion-content {
+  /* padding: 10px 20px; */
+  display: none;
+}
+
+.accordion-content.open {
+  display: block;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.wing-item {
+  margin-bottom: 6px;
+}

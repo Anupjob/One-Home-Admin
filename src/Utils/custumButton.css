@@ -1,0 +1,20 @@
+.custom-btn-outline{
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 0rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+}
+
+@media (max-width: 576px) {
+    .custom-btn-outline{
+        padding: 0rem 8px;
+        height: 30px;
+        font-size: 12px;
+    }
+}

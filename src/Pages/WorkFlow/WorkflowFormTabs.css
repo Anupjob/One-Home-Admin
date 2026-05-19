@@ -1,0 +1,58 @@
+/* Container padding */
+.workflow-tabs-container {
+  padding: 20px;
+  background-color: #f8f9fa; /* light gray background */
+  border-radius: 8px;
+}
+
+/* Tab styling */
+.workflow-tabs .nav-link {
+  font-weight: 500;
+  color: #495057;
+  margin-right: 10px;
+  border-radius: 6px 6px 0 0;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.workflow-tabs .nav-link.active {
+  background-color: #242056;
+  color: #fff;
+  border-color: #242056 #242056 #fff;
+}
+
+/* Tab content */
+.tab-content-wrapper {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  margin-top: -1px;
+  min-height: 400px; /* optional: make tab height consistent */
+}
+
+/* Form title */
+.form-title {
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* Add some spacing between form components */
+.formio-component {
+  margin-bottom: 15px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .workflow-tabs .nav-link {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  .tab-content-wrapper {
+    padding: 15px;
+  }
+}

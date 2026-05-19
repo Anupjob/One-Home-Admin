@@ -1,0 +1,64 @@
+.widget-palette-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  border-top: 1px solid #ccc;
+  padding: 10px 20px;
+  display: flex;
+  gap: 16px;
+  z-index: 1000;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px 12px 0 0;
+}
+
+.widget-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+  padding: 6px 10px;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  border-radius: 10px;
+  transform-origin: center bottom;
+}
+
+.widget-icon-wrapper:hover {
+  transform: scale(1.12) translateY(-4px);
+  background: rgba(78, 84, 200, 0.08);
+  box-shadow: 0 8px 20px rgba(78, 84, 200, 0.2);
+}
+
+.widget-icon {
+  font-size: 24px;
+  color: #333;
+  transition: color 0.2s ease, transform 0.3s ease;
+}
+
+.widget-icon-wrapper:hover .widget-icon {
+  color: #4e54c8;
+  transform: scale(1.2);
+}
+
+.widget-label {
+  font-size: 12px;
+  color: #666;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: absolute;
+  bottom: 40px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.widget-icon-wrapper:hover .widget-label {
+  opacity: 1;
+  transform: translateY(-4px);
+}
+
+.widget-icon-wrapper:active {
+  cursor: grabbing;
+  opacity: 0.9;
+}

@@ -1,0 +1,7 @@
+.no-hover:hover,
+.no-hover:focus,
+.no-hover:active {
+  background-color: #242056 !important;
+  border-color: #242056 !important;
+  box-shadow: none !important;
+}

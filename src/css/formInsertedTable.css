@@ -1,0 +1,106 @@
+.filter-wrapper{
+    gap: 10px;
+    margin: 10px 0px 20px 0px;
+}
+.btn-filter{
+    height:38px;
+}
+/* Apply height to normal inputs */
+.input-height-40 {
+    height: 30px !important;
+    width: 100% !important;
+}
+.form-control:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: #3498ff !important;
+}
+
+.rs-input-group.rs-input-group-focus,
+.rs-input-group:focus-within {
+    outline: none !important;
+    outline-offset: 0 !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-width: 1px !important;
+}
+.moduleList > div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+.moduleList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+
+
+.rs-input-group {
+    height: 30px !important;
+    /* width: 290px; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bbbbbd;
+    border-radius: .35rem;
+}
+
+.rs-input-group .rs-input {
+    height: 30px !important;
+    font-size: 12px;
+
+}
+
+
+.mui-input-40 .MuiOutlinedInput-root {
+    height: 32px !important;
+    padding: 0 !important;
+}
+
+.mui-input-40 .MuiOutlinedInput-input {
+    padding: 8px 12px !important;  /* Keeps text centered */
+}
+
+.mui-input-40 .MuiSelect-select {
+    padding: 8px 12px !important;
+    display: flex;
+    align-items: center;
+}
+
+.mui-input-40 .MuiChip-root {
+    height: 24px;
+}
+
+.css-9kdwf7-MuiFormControl-root {
+  /* width: 240px !important;
+  height: 30px !important; */
+}
+
+.dropdown-item:hover {
+  color: #f0500c !important;   /* your orange color */
+}
+
+
+@media (max-width: 576px) {
+   .mb-m {
+       margin-bottom: 10px !important;
+       width: 100% !important;
+       /* max-width: 300px !important; */
+   }
+   .css-9kdwf7-MuiFormControl-root {
+  width: 300px !important;
+}
+   .input-height-40{
+    width: 100% !important;
+   }
+   .offcanvas-body .form-control, .offcanvas-body .form-select {
+    border-radius: 6px;
+}
+}
